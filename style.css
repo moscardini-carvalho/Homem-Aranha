@@ -1,34 +1,39 @@
-body{
+body {
     padding: 0;
     margin: 0;
     background-color: #feca3e;
 }
-.center{
+
+.center {
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
 }
-.container{
+
+.container {
     height: 31.25em;
     width: 21.87em;
     border: 1px solid white;
 }
-.rope{
+
+.rope {
     height: 13.62em;
     width: 0.15em;
     background-color: #ffffff;
 }
-.legs{
+
+.legs {
     height: 1.12em;
     width: 7.5em;
     background-color: transparent;
     box-shadow: 0 0 0 0.12em #140243, 0 0 0 1.06em #1b1676,
-    0 0 0 1.18em #140243;
+        0 0 0 1.18em #140243;
     top: 12.5em;
     border-radius: 3.12em;
 }
+
 .boot-l,
-.boot-r{
+.boot-r {
     height: 1.25em;
     width: 2.5em;
     background-color: #e32832;
@@ -36,11 +41,22 @@ body{
     border: 0.12em solid #140243;
     bottom: 1.12em;
 }
-.boot-l{
+
+.boot-l {
     left: 1em;
 }
-.boot-r{
+
+.boot-r {
     transform: rotateY(180deg);
     left: 3.18em;
-    
+}
+
+.boot-l:before, .boot-r:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 1.12em solid #140243;
+    border-left: 1.12em solid transparent;
+    bottom: 1.31em;
 }
