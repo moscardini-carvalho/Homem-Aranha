@@ -1,6 +1,6 @@
-# SpiderMan Animation
+# Animação Homem-Aranha (Noir)
 
-Este é meu site currículo onde mostra todas as minhas competências
+Este é um projeto de animação de um personagem feito inteiramente com HTML e CSS.
 
 ## 🚀 Começando
 
