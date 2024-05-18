@@ -17,3 +17,6 @@ Aqui é link para visualização no Codepen.io: [(https://codepen.io/collection/
 ## 🛠️ Construído com:
 
 * VS Code Studio: (https://code.visualstudio.com/)
+
+*   Resultado:
+
