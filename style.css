@@ -10,12 +10,6 @@ body {
     left: 50%;
 }
 
-.container {
-    height: 31.25em;
-    width: 21.87em;
-    border: 1px solid white;
-}
-
 .rope {
     height: 13.62em;
     width: 0.15em;
@@ -191,10 +185,10 @@ body {
 }
 .eye-l, 
 .eye-r{
-    height: 0.68em;
-    width: 1.37em;
+    height: 0.98em;
+    width: 1.5em;
     background-color: #ffffff;
-    border-radius: 2em 2em 0 0;
+    border-radius: 2em 2em 2em 2em;
     border: 0.12em solid #140243;
     position: absolute;
     top: 9em;
@@ -216,12 +210,14 @@ body {
     font-size: 20px;
     }
 }
-.hat{
-    height: 0em;
-    width: 1em;
-    background-color: transparent;
-    box-shadow: 0 0 0 0 #140243, 0 0 0 1.06em #494949,
-        0 0 0 1.18em #140243;
-    border-radius: 2em;
-    top: 11.55em;
+.borderhat{
+    height: 0.35em;
+    width: 5em;
+    background-color: #000000;
+    top: 10.65em;
+}
+.tophat{
+    box-shadow: 0 0 0 0 #000000, 0 0 0 1.06em #000000,
+        0 0 0 1.18em #000000;
+        top: 11.90em;
 }
